@@ -24,7 +24,7 @@ img{
 
 .nav-topBar{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-background-color: rgb(43, 43, 42);
+background-color: rgb(8, 8, 8);
 position:fixed;
 width: 100%;
 margin-left: 0;
@@ -38,13 +38,21 @@ opacity: 0.8;
 .nav-topBar img{
     margin-top: 8px;
     border-radius: 100%;
+    height:60px;
+     width:76px;
 
+}
+
+.navs img{
+    height: 30px;
+    width: 30px;
+    opacity: 0.8;
 }
 
 .navs{
     position: relative;
     display: flex;
-     gap: 10px;
+     gap: 20px;
      -border: 2px solid wheat;
      width: 600px;
     float: right;
@@ -71,7 +79,7 @@ opacity: 0.8;
     color: beige;
 }
 
-.nav-topBar  button{
+.navs  button{
     margin-top: 10px;
     height: 30px;
     border: 1px solid rgb(252, 154, 7);
@@ -87,6 +95,7 @@ opacity: 0.8;
     border-radius: 10px;
     padding: 5px;
     padding-left: 10px;
+    width: 80px;
 }
 .image--container{
     
@@ -94,6 +103,10 @@ opacity: 0.8;
     -background-color:aqua;
     margin: 0;
    
+}
+#main-image{
+    height:800px;
+     width:100%;
 }
 
 .aboutUs--container{
@@ -105,6 +118,11 @@ opacity: 0.8;
     margin: 0;
     margin-top: 50px;
     
+}
+
+#img1{
+    width:500px;
+     height:400px;
 }
 
     .child1{
@@ -142,6 +160,9 @@ h1{
     margin: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
+}
+pre{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .child1--sub button{
@@ -190,7 +211,10 @@ h1{
     height: 30px;
     border-radius: 10px;
 }
-
+.child2 img{
+    height:300;
+     width:400px;
+}
 div[class^='block']{
     border: 1px solid rgb(13, 13, 13,0.3);
     box-shadow: 0px 8px 5px 3px rgba(0,0,0,0.2);
@@ -346,7 +370,7 @@ div[class^='block']{
         
         background-color: inherit;
         font-family: inherit;
-        margin-top: 9px;
+        margin-top: 8px;
         box-shadow: 0px 0px;
         color: white;
       }
@@ -388,4 +412,95 @@ div[class^='block']{
 
       .space{
         background-color: red;
+      }
+
+      @media screen and (max-width:600px) {
+
+        .nav-topBar{
+            height: 60px;
+        }
+
+        #searchicon{
+        height: 22px;
+            width: 22px;
+            margin-top: 10px;
+        }
+        .nav-topBar img{
+
+            height: 40px;
+            width:48px ;
+
+        }
+
+        .navs{
+            margin-top: 8px;
+            left: 220px;
+        }
+ 
+        .navs input{
+            width: 56px;
+            height: 10px;
+            font-size: 11px;
+
+        }
+        .navs{
+            font-size: 12px;
+            gap: 8px;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 12px; 
+        }
+
+        #main-image{
+            height: 100%;
+        }
+
+        .image--container{
+            height: 350px;
+        }
+        #img1{
+           
+            margin-left: 65px;
+            width: 300px;
+            height: 200px;
+        }
+
+        .child1{
+            flex-direction: column;
+            padding-left: 5px;
+            -margin-left: 20px;
+            width: 450px;
+           
+            
+        }
+       .child1 p{
+margin-left: 0;
+        }
+
+        .child1--sub{
+            
+            width: 400px;
+            padding: 0;
+            
+        }
+
+        .child2 img{
+            height: 100px;
+            width: 150px;
+        }
+        .child2{
+            font-size: small;
+            gap: 10px;
+        }
+        .child2 button{
+            font-size: 11px;
+        }
+.contactNow--container{
+font-size: small;
+}
+        .contactNow--container h1{
+            font-size: 30px;
+            padding: 0;
+        }
       }
