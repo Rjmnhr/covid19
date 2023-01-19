@@ -422,7 +422,7 @@ div[class^='block']{
         .nav-topBar{
             margin: 0;
             height: 60px;
-            width: 474px;
+            width: 100%;
             position: absolute;
         }
 
@@ -460,6 +460,7 @@ div[class^='block']{
 
         #main-image{
             height: 100%;
+            width: 100%;
         }
 
         .image--container{
@@ -492,19 +493,19 @@ margin-left: 0;
         }
 
         .child2 img{
-            height: 100px;
+            height: 120px;
             width: 150px;
         }
         .child2{
             font-size: small;
-            gap: 10px;
+            gap: 8px;
         }
         .child2 button{
             font-size: 11px;
         }
 .contactNow--container{
 font-size: small;
-width: 474px;
+width: 100%;
     
 }
         .contactNow--container h1{
@@ -513,5 +514,11 @@ width: 474px;
 
         }
 
-       .join
+        .form{
+        padding-left: 10px
+        }
+.tab--bottom{
+    width: 100%;
+}
+       
       }
