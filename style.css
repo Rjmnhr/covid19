@@ -415,10 +415,15 @@ div[class^='block']{
       }
 
       @media screen and (max-width:600px) {
+        .container{
+            overflow-x: none;
+        }
 
         .nav-topBar{
+            margin: 0;
             height: 60px;
-            width: 500px;
+            width: 474px;
+            position: absolute;
         }
 
         #searchicon{
@@ -462,7 +467,7 @@ div[class^='block']{
         }
         #img1{
            
-            margin-left: 65px;
+            
             width: 300px;
             height: 200px;
         }
@@ -499,11 +504,14 @@ margin-left: 0;
         }
 .contactNow--container{
 font-size: small;
+width: 474px;
+    
 }
         .contactNow--container h1{
             font-size: 30px;
             padding: 0;
+
         }
 
-       
+       .join
       }
